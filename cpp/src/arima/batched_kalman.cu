@@ -22,7 +22,7 @@
 #include <cub/cub.cuh>
 
 #include <cuml/cuml.hpp>
-#include <cuml/tsa/batched_kalman.hpp>
+#include <cuml/tsa/batched_kalman.cuh>
 
 #include <common/cudart_utils.h>
 #include <linalg/cublas_wrappers.h>

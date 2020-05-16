@@ -143,8 +143,3 @@ void lstsqQR(math_t *A, int n_rows, int n_cols, math_t *b, math_t *w,
   CUDA_CHECK(cudaMemcpyAsync(w, b, sizeof(math_t) * n, cudaMemcpyDeviceToDevice,
                              stream));
 }
-
-};  // namespace LinAlg
-// end namespace LinAlg
-};  // namespace MLCommon
-// end namespace MLCommon

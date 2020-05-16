@@ -168,6 +168,7 @@ def main():
     args = parse_args()
     top_inc_dirs = args.top_include_dirs.split(',')
     all_files = list_all_source_file(args.regex_compiled, args.dirs)
+    print(all_files)
     all_errs = {}
     for f in all_files:
         errs = check_includes_in(f, args.inplace, top_inc_dirs)

@@ -24,7 +24,7 @@
 #include <cuda_runtime.h>
 
 #ifdef HAVE_CUB
-#include <cuml/common/cubAllocatorAdapter.hpp>
+#include <cuml/common/cubAllocatorAdapter.cuh>
 #endif  //HAVE_CUB
 
 #ifdef HAVE_RMM

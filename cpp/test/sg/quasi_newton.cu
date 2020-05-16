@@ -23,6 +23,7 @@
 #include <glm/qn/glm_logistic.cuh>
 #include <glm/qn/glm_softmax.cuh>
 #include <glm/qn/qn.cuh>
+#include <linalg/transpose.cuh>
 #include <vector>
 
 namespace ML {

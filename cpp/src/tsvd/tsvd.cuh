@@ -18,7 +18,6 @@
 
 #include <common/cudart_utils.h>
 #include <linalg/cublas_wrappers.h>
-#include <linalg/transpose.h>
 #include <thrust/device_vector.h>
 #include <thrust/execution_policy.h>
 #include <common/allocatorAdapter.hpp>
@@ -31,6 +30,7 @@
 #include <linalg/eltwise.cuh>
 #include <linalg/gemm.cuh>
 #include <linalg/rsvd.cuh>
+#include <linalg/transpose.cuh>
 #include <matrix/math.cuh>
 #include <matrix/matrix.cuh>
 #include <stats/mean.cuh>

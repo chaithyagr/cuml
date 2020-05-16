@@ -25,6 +25,7 @@
 #include <cuml/decomposition/params.hpp>
 #include <linalg/eig.cuh>
 #include <linalg/eltwise.cuh>
+#include <linalg/transpose.cuh>
 #include <matrix/math.cuh>
 #include <matrix/matrix.cuh>
 #include <stats/cov.cuh>

@@ -23,6 +23,7 @@
 #include "internal/hw_eval.cuh"
 #include "internal/hw_forecast.cuh"
 #include "internal/hw_optim.cuh"
+#include "linalg/transpose.cuh"
 
 namespace ML {
 
