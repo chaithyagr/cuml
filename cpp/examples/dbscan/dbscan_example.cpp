@@ -24,7 +24,7 @@
 #include <vector>
 
 #ifdef HAVE_CUB
-#include <cuml/common/cubAllocatorAdapter.cuh>
+#include <cuml/common/cubAllocatorAdapter.hpp>
 #endif  //HAVE_CUB
 
 #ifdef HAVE_RMM
