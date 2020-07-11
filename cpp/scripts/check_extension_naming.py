@@ -33,7 +33,7 @@ DEFAULT_DIRS = ["cpp/bench",
                 "cpp/src_prims",
                 "cpp/test"]
 
-IGNORE_FILES = r"(cpp/src/decisiontree/memory.h$|cpp/include/cuml/common/cubAllocatorAdapter.hpp$|cpp/include/cuml/datasets/make_arima.hpp$)"
+IGNORE_FILES = r"(cpp/src/decisiontree/memory.h$|cpp/include/cuml/common/cubAllocatorAdapter.hpp$)"
 Search_Regex = re.compile(r"(#include.*.cuh|__device__|__global__)")
 
 def parse_args():
