@@ -26,7 +26,7 @@
 #include <common/cudart_utils.h>
 #include <linalg/cublas_wrappers.h>
 #include <linalg/init.h>
-#include <linalg/transpose.h>
+#include <linalg/transpose.cuh>
 #include <linalg/add.cuh>
 #include <linalg/qr.cuh>
 #include <matrix/matrix.cuh>

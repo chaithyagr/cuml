@@ -26,7 +26,7 @@
 #include "cusolver_wrappers.h"
 #include "eig.cuh"
 #include "gemm.cuh"
-#include "transpose.h"
+#include "transpose.cuh"
 
 namespace MLCommon {
 namespace LinAlg {

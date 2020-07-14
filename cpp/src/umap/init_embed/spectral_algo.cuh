@@ -23,7 +23,7 @@
 
 #include <linalg/add.cuh>
 
-#include <linalg/transpose.h>
+#include <linalg/transpose.cuh>
 #include <random/rng.cuh>
 
 #include <cuml/cluster/spectral.hpp>

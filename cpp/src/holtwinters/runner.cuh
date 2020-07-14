@@ -18,7 +18,6 @@
 
 #include <common/cudart_utils.h>
 #include <cuml/tsa/holtwinters_params.h>
-#include <linalg/transpose.h>
 #include "internal/hw_decompose.cuh"
 #include "internal/hw_eval.cuh"
 #include "internal/hw_forecast.cuh"

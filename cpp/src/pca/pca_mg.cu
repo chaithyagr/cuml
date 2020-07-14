@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include <linalg/transpose.h>
+#include <linalg/transpose.cuh>
 #include <common/cumlHandle.hpp>
 #include <common/cuml_comms_int.hpp>
 #include <common/device_buffer.hpp>

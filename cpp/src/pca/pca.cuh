@@ -17,7 +17,7 @@
 #pragma once
 
 #include <linalg/cublas_wrappers.h>
-#include <linalg/transpose.h>
+#include <linalg/transpose.cuh>
 #include <common/cumlHandle.hpp>
 #include <common/device_buffer.hpp>
 #include <cuda_utils.cuh>

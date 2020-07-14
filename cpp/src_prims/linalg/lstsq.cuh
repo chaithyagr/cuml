@@ -28,7 +28,7 @@
 #include "gemv.h"
 #include "qr.cuh"
 #include "svd.cuh"
-#include "transpose.h"
+#include "transpose.cuh"
 
 namespace MLCommon {
 namespace LinAlg {
